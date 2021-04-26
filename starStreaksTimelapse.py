@@ -1,8 +1,8 @@
 import os, numpy
 from PIL import Image
 
-inFiles = "C:\\Users\\cam25\\Pictures\\starTrails"
-outfiles = "C:\\Users\\cam25\\Pictures\\edited"
+inFiles = ""
+outfiles = ""
 
 for dirpath, dirnames, filenames in os.walk(inFiles):
     images = filenames
